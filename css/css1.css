@@ -1,0 +1,40 @@
+.topnav {
+    overflow: hidden;
+    background-color: #f6f6f6;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #494047;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+.euphoria{
+    background-image: url(../fotos/euphoria_rules.png);
+    height: 800px;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    position: relative;
+}
+
+.lila{
+    background-color: #dbd4da;
+}
+
+.burgundy{
+    background-color: #a791a5;
+}
