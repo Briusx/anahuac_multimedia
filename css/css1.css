@@ -1,3 +1,5 @@
+body {background-color: #a791a5;}
+
 .topnav {
     overflow: hidden;
     background-color: #f6f6f6;
@@ -20,7 +22,8 @@
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
-  }
+}
+
 
 .lila{
     background-color: #dbd4da;
@@ -28,6 +31,21 @@
 
 .burgundy{
     background-color: #a791a5;
+    display: flex;
+    align-items: center;
+}
+
+.margen{
+  padding: 10%;
+  padding-top: 5%;
+}
+
+.margen2{
+  padding: 10%;
+}
+
+.recent{
+  max-width: 100%;
 }
 
 * {box-sizing: border-box}
@@ -126,4 +144,30 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.textogaleria {
+  max-width: 0%;
+  padding: 5%;
+}
+
+.abajo {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: lighter;
+  padding: 15px;
+  background-color: #f6f6f6;
 }

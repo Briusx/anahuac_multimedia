@@ -1,6 +1,30 @@
+body {
+    background-color: #dbd4da;
+    font-family: Verdana, sans-serif; margin:0
+}
+
 .topnav {
     overflow: hidden;
     background-color: #f6f6f6;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #494047;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
 }
 
 #division{
